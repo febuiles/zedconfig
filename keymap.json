@@ -1,0 +1,28 @@
+[
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-s": [
+                "buffer_search::Deploy",
+                {
+                    "focus": true
+                }
+            ],
+            "ctrl-y": "editor::Paste",
+            "cmd-w": "editor::Copy",
+            "ctrl-x ctrl-s": "workspace::Save",
+            "f3": "dock::FocusDock",
+            "cmd-x": "command_palette::Toggle"
+        }
+    },
+    // use ctrl-s/ctrl-r in the search bar
+    {
+        "context": "BufferSearchBar > Editor",
+        "bindings": {
+            "escape": "buffer_search::Dismiss",
+            "tab": "buffer_search::FocusEditor",
+            "ctrl-s": "search::SelectNextMatch",
+            "ctrl-r": "search::SelectPrevMatch"
+        }
+    }
+]

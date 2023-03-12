@@ -11,6 +11,8 @@
             "ctrl-y": "editor::Paste",
             "cmd-w": "editor::Copy",
             "ctrl-x ctrl-s": "workspace::Save",
+            "ctrl-x ctrl-f": "workspace::NewFile",
+            "ctrl-x b": "file_finder::Toggle",
             "f3": "dock::FocusDock",
             "cmd-x": "command_palette::Toggle"
         }

@@ -15,7 +15,13 @@
             "ctrl-x b": "file_finder::Toggle",
             "f3": "dock::FocusDock",
             "cmd-x": "command_palette::Toggle",
-            "ctrl-x k": "pane::CloseActiveItem"
+            "ctrl-x k": "pane::CloseActiveItem",
+            "cmd-v": [
+                "editor::MovePageUp",
+                {
+                    "center_cursor": true
+                }
+            ]
         }
     },
     // use ctrl-s/ctrl-r in the search bar

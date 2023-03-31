@@ -10,6 +10,7 @@
             ],
             "ctrl-y": "editor::Paste",
             "cmd-w": "editor::Copy",
+            "ctrl-w": "editor::Cut",
             "ctrl-x ctrl-s": "workspace::Save",
             "ctrl-x ctrl-f": "workspace::NewFile",
             "ctrl-x b": "file_finder::Toggle",
@@ -32,6 +33,12 @@
             "tab": "buffer_search::FocusEditor",
             "ctrl-s": "search::SelectNextMatch",
             "ctrl-r": "search::SelectPrevMatch"
+        }
+    },
+    {
+        "context": "Dock",
+        "bindings": {
+            "cmd-0": "dock::HideDock"
         }
     }
 ]
